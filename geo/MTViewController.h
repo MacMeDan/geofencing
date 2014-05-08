@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface MTViewController : UIViewController
+@interface MTViewController : UITableViewController
 
 @end

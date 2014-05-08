@@ -21,6 +21,7 @@
 		F541C3D7191AFA9F0065BB96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F541C3B9191AFA9E0065BB96 /* UIKit.framework */; };
 		F541C3DF191AFA9F0065BB96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F541C3DD191AFA9F0065BB96 /* InfoPlist.strings */; };
 		F541C3E1191AFA9F0065BB96 /* geoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F541C3E0191AFA9F0065BB96 /* geoTests.m */; };
+		F541C3EB191AFAB50065BB96 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F541C3EA191AFAB50065BB96 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F541C3DC191AFA9F0065BB96 /* geoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "geoTests-Info.plist"; sourceTree = "<group>"; };
 		F541C3DE191AFA9F0065BB96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F541C3E0191AFA9F0065BB96 /* geoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = geoTests.m; sourceTree = "<group>"; };
+		F541C3EA191AFAB50065BB96 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F541C3EB191AFAB50065BB96 /* CoreLocation.framework in Frameworks */,
 				F541C3B8191AFA9E0065BB96 /* CoreGraphics.framework in Frameworks */,
 				F541C3BA191AFA9E0065BB96 /* UIKit.framework in Frameworks */,
 				F541C3B6191AFA9E0065BB96 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		F541C3B4191AFA9E0065BB96 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F541C3EA191AFAB50065BB96 /* CoreLocation.framework */,
 				F541C3B5191AFA9E0065BB96 /* Foundation.framework */,
 				F541C3B7191AFA9E0065BB96 /* CoreGraphics.framework */,
 				F541C3B9191AFA9E0065BB96 /* UIKit.framework */,
